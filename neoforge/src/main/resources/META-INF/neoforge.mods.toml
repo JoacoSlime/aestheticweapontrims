@@ -7,7 +7,7 @@ license = "GPLv3"
 modId = "aestheticweapontrims"
 version = "${version}"
 displayName = "Aesthetic Weapon Trims"
-authors = "JoacoSlime & epher"
+authors = "JoacoSlime & WoofNBark"
 description = '''
 This is a simple mod that adds aesthetical trims for diamond swords.
 '''
