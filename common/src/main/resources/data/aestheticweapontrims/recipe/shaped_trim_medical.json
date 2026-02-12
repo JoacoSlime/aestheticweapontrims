@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#n",
+        "nG"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:apple"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "id": "aestheticweapontrims:medical_trim",
+        "count": 1
+    }
+}

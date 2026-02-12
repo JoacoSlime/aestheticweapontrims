@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#n",
+        "nP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:oxeye_daisy"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "P": {
+            "item": "minecraft:pink_dye"
+        }
+    },
+    "result": {
+        "id": "aestheticweapontrims:cutesy_trim",
+        "count": 1
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "aestheticweapontrims:item/blizzard_sword"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, 45],
+      "translation": [-0.5, 6.75, 1.5],
+      "scale": [2, 2, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, -45],
+      "translation": [-0.5, 6.75, 1.5],
+      "scale": [2, 2, 1]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -90, 25],
+      "translation": [5.65, -0.05, -2.85],
+      "scale": [2, 2, 1]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -25],
+      "translation": [4.65, -0.05, -2.85],
+      "scale": [2, 2, 1]
+    },
+    "ground": {
+      "translation": [0, 2, 0]
+    },
+    "gui": {
+      "translation": [-2, -2, 0],
+      "scale": [1.2, 1.2, 1]
+    },
+    "fixed": {
+      "rotation": [0, 180, 0],
+      "translation": [1.5, -1.5, 0],
+      "scale": [1.5, 1.5, 1]
+    }
+  }
+}

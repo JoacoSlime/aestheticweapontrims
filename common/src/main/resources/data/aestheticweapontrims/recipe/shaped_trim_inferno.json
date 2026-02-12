@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#n",
+        "nM"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "M": {
+            "item": "minecraft:magma_cream"
+        }
+    },
+    "result": {
+        "id": "aestheticweapontrims:inferno_trim",
+        "count": 1
+    }
+}

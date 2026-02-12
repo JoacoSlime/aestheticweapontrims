@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "aestheticweapontrims:blizzard_trim"
+    },
+    "base": {
+        "item": "minecraft:diamond_sword"
+    },
+    "addition": {
+        "item": "aestheticweapontrims:glaive_weapon_pattern"
+    },
+    "result": {
+        "id": "aestheticweapontrims:blizzard_glaive",
+        "count": 1
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "aestheticweapontrims",
+  "version": "${version}",
+  "name": "Aesthetic Weapon Trims",
+  "description": "This is a simple mod that adds aesthetical trims for diamond swords.",
+  "authors": [
+    "JoacoSlime",
+    "epher."
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "joacoslime.fabric.AestheticWeaponTrimsFabric"
+    ],
+    "client": [
+      "joacoslime.fabric.client.AestheticWeaponTrimsFabricClient"
+    ]
+  },
+  "mixins": [
+    "aestheticweapontrims.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

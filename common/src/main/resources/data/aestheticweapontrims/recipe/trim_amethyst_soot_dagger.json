@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "aestheticweapontrims:amethyst_soot_trim"
+    },
+    "base": {
+        "item": "minecraft:diamond_sword"
+    },
+    "addition": {
+        "item": "aestheticweapontrims:dagger_weapon_pattern"
+    },
+    "result": {
+        "id": "aestheticweapontrims:amethyst_soot_dagger",
+        "count": 1
+    }
+}

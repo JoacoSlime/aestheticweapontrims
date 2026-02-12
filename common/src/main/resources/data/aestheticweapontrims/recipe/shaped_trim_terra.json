@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#n",
+        "nL"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "L": {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    "result": {
+        "id": "aestheticweapontrims:terra_trim",
+        "count": 1
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "aestheticweapontrims:steel_1_sword"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "aestheticweapontrims:steel_2_sword"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#n",
+        "n#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:quartz"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "id": "aestheticweapontrims:quartz_trim",
+        "count": 1
+    }
+}

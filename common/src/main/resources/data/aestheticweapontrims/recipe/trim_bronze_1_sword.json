@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "aestheticweapontrims:bronze_trim"
+    },
+    "base": {
+        "item": "minecraft:diamond_sword"
+    },
+    "addition": {
+        "item": "aestheticweapontrims:sword_weapon_pattern"
+    },
+    "result": {
+        "id": "aestheticweapontrims:bronze_1_sword",
+        "count": 1
+    }
+}
