@@ -646,7 +646,7 @@ the exclusion of warranty; and each file should have at least the
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-Also add information on how to contact you by electronic and paper
+Also add information on how to contact you by elecneonic and paper
 mail.
 
 If the program does terminal interaction, make it output a short

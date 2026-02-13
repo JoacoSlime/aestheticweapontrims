@@ -36,7 +36,7 @@ public final class AestheticWeaponTrimsNeoForge {
             event.accept(AestheticWeaponTrimsItems.REDSTONE_SOOT_TRIM.get());
             event.accept(AestheticWeaponTrimsItems.STEEL_TRIM.get());
             event.accept(AestheticWeaponTrimsItems.TERRA_TRIM.get());
-            event.accept(AestheticWeaponTrimsItems.TRON_TRIM.get());
+            event.accept(AestheticWeaponTrimsItems.NEON_TRIM.get());
             event.accept(AestheticWeaponTrimsItems.VOID_TRIM.get());
         }
     }

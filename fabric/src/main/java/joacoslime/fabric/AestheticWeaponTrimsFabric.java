@@ -42,7 +42,7 @@ public final class AestheticWeaponTrimsFabric implements ModInitializer {
         ItemGroupEvents.modifyEntriesEvent(AestheticWeaponTrimsCreativeTabs.AWT_TAB.getKey())
                 .register((itemGroup) -> itemGroup.accept(AestheticWeaponTrimsItems.TERRA_TRIM.get()));
         ItemGroupEvents.modifyEntriesEvent(AestheticWeaponTrimsCreativeTabs.AWT_TAB.getKey())
-                .register((itemGroup) -> itemGroup.accept(AestheticWeaponTrimsItems.TRON_TRIM.get()));
+                .register((itemGroup) -> itemGroup.accept(AestheticWeaponTrimsItems.NEON_TRIM.get()));
         ItemGroupEvents.modifyEntriesEvent(AestheticWeaponTrimsCreativeTabs.AWT_TAB.getKey())
                 .register((itemGroup) -> itemGroup.accept(AestheticWeaponTrimsItems.VOID_TRIM.get()));
     }

@@ -1,16 +1,16 @@
 {
     "type": "minecraft:smithing_transform",
     "template": {
-        "item": "aestheticweapontrims:tron_trim"
+        "item": "aestheticweapontrims:neon_trim"
     },
     "base": {
         "item": "minecraft:diamond_sword"
     },
     "addition": {
-        "item": "aestheticweapontrims:glaive_weapon_pattern"
+        "item": "aestheticweapontrims:dagger_weapon_pattern"
     },
     "result": {
-        "id": "aestheticweapontrims:tron_glaive",
+        "id": "aestheticweapontrims:neon_dagger",
         "count": 1
     }
 }

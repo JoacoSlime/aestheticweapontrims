@@ -32,7 +32,7 @@ public class AestheticWeaponTrimsItems {
     public static RegistrySupplier<Item> REDSTONE_SOOT_TRIM;
     public static RegistrySupplier<Item> STEEL_TRIM;
     public static RegistrySupplier<Item> TERRA_TRIM;
-    public static RegistrySupplier<Item> TRON_TRIM;
+    public static RegistrySupplier<Item> NEON_TRIM;
     public static RegistrySupplier<Item> VOID_TRIM;
     public static RegistrySupplier<Item> DAGGER_WEAPON_PATTERN;
     public static RegistrySupplier<Item> GLAIVE_WEAPON_PATTERN;
@@ -89,7 +89,7 @@ public class AestheticWeaponTrimsItems {
         REDSTONE_SOOT_TRIM = registerItem("redstone_soot_trim", () -> createTrim("redstone_soot"));
         STEEL_TRIM = registerItem("steel_trim", () -> createTrim("steel"));
         TERRA_TRIM = registerItem("terra_trim", () -> createTrim("terra"));
-        TRON_TRIM = registerItem("tron_trim", () -> createTrim("tron"));
+        NEON_TRIM = registerItem("neon_trim", () -> createTrim("neon"));
         VOID_TRIM = registerItem("void_trim", () -> createTrim("void"));
         DAGGER_WEAPON_PATTERN = registerItem("dagger_weapon_pattern", () -> new Item(new Item.Properties().arch$tab(AWT_TAB)));
         GLAIVE_WEAPON_PATTERN = registerItem("glaive_weapon_pattern", () -> new Item(new Item.Properties().arch$tab(AWT_TAB)));

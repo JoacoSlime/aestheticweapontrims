@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "aestheticweapontrims:item/tron_glaive"
+    "layer0": "aestheticweapontrims:item/neon_sword"
   },
   "gui_light": "front",
   "display": {
@@ -27,6 +27,10 @@
     },
     "ground": {
       "translation": [0, 2, 0]
+    },
+    "gui": {
+      "translation": [-2, -2, 0],
+      "scale": [1.2, 1.2, 1]
     },
     "fixed": {
       "rotation": [0, 180, 0],

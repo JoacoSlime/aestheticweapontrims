@@ -34,7 +34,7 @@ public class AestheticWeaponTrimsWeapons {
     public static RegistrySupplier<Item> REDSTONE_SOOT_DAGGER;
     public static RegistrySupplier<Item> STEEL_DAGGER;
     public static RegistrySupplier<Item> TERRA_DAGGER;
-    public static RegistrySupplier<Item> TRON_DAGGER;
+    public static RegistrySupplier<Item> NEON_DAGGER;
     public static RegistrySupplier<Item> VOID_DAGGER;
     public static RegistrySupplier<Item> AMETHYST_SOOT_GLAIVE;
     public static RegistrySupplier<Item> BLIZZARD_GLAIVE;
@@ -48,7 +48,7 @@ public class AestheticWeaponTrimsWeapons {
     public static RegistrySupplier<Item> REDSTONE_SOOT_GLAIVE;
     public static RegistrySupplier<Item> STEEL_GLAIVE;
     public static RegistrySupplier<Item> TERRA_GLAIVE;
-    public static RegistrySupplier<Item> TRON_GLAIVE;
+    public static RegistrySupplier<Item> NEON_GLAIVE;
     public static RegistrySupplier<Item> VOID_GLAIVE;
     public static RegistrySupplier<Item> AMETHYST_SOOT_SWORD;
     public static RegistrySupplier<Item> BLIZZARD_SWORD;
@@ -66,7 +66,7 @@ public class AestheticWeaponTrimsWeapons {
     public static RegistrySupplier<Item> STEEL_1_SWORD;
     public static RegistrySupplier<Item> STEEL_2_SWORD;
     public static RegistrySupplier<Item> TERRA_SWORD;
-    public static RegistrySupplier<Item> TRON_SWORD;
+    public static RegistrySupplier<Item> NEON_SWORD;
     public static RegistrySupplier<Item> VOID_SWORD;
 
     public static void init() {
@@ -75,7 +75,7 @@ public class AestheticWeaponTrimsWeapons {
                         Attributes.ATTACK_DAMAGE,
                         new AttributeModifier(
                                 BASE_ATTACK_DAMAGE_ID,
-                                2.0F + Tiers.DIAMOND.getAttackDamageBonus(),
+                                1.0F + Tiers.NETHERITE.getAttackDamageBonus(),
                                 AttributeModifier.Operation.ADD_VALUE
                         ),
                         EquipmentSlotGroup.MAINHAND
@@ -104,7 +104,7 @@ public class AestheticWeaponTrimsWeapons {
                         Attributes.ATTACK_DAMAGE,
                         new AttributeModifier(
                                 BASE_ATTACK_DAMAGE_ID,
-                                6.0F + Tiers.DIAMOND.getAttackDamageBonus(),
+                                5.0F + Tiers.NETHERITE.getAttackDamageBonus(),
                                 AttributeModifier.Operation.ADD_VALUE
                         ),
                         EquipmentSlotGroup.MAINHAND
@@ -133,7 +133,7 @@ public class AestheticWeaponTrimsWeapons {
                         Attributes.ATTACK_DAMAGE,
                         new AttributeModifier(
                                 BASE_ATTACK_DAMAGE_ID,
-                                4.5F + Tiers.DIAMOND.getAttackDamageBonus(),
+                                3.5F + Tiers.NETHERITE.getAttackDamageBonus(),
                                 AttributeModifier.Operation.ADD_VALUE
                         ),
                         EquipmentSlotGroup.MAINHAND
@@ -162,7 +162,7 @@ public class AestheticWeaponTrimsWeapons {
         REDSTONE_SOOT_DAGGER = registerItem("redstone_soot_dagger", () -> createWeapon(dagger_attributes));
         STEEL_DAGGER = registerItem("steel_dagger", () -> createWeapon(dagger_attributes));
         TERRA_DAGGER = registerItem("terra_dagger", () -> createWeapon(dagger_attributes));
-        TRON_DAGGER = registerItem("tron_dagger", () -> createWeapon(dagger_attributes));
+        NEON_DAGGER = registerItem("neon_dagger", () -> createWeapon(dagger_attributes));
         VOID_DAGGER = registerItem("void_dagger", () -> createWeapon(dagger_attributes));
 
         // Glaives
@@ -178,7 +178,7 @@ public class AestheticWeaponTrimsWeapons {
         REDSTONE_SOOT_GLAIVE = registerItem("redstone_soot_glaive", () -> createWeapon(glaive_attributes));
         STEEL_GLAIVE = registerItem("steel_glaive", () -> createWeapon(glaive_attributes));
         TERRA_GLAIVE = registerItem("terra_glaive", () -> createWeapon(glaive_attributes));
-        TRON_GLAIVE = registerItem("tron_glaive", () -> createWeapon(glaive_attributes));
+        NEON_GLAIVE = registerItem("neon_glaive", () -> createWeapon(glaive_attributes));
         VOID_GLAIVE = registerItem("void_glaive", () -> createWeapon(glaive_attributes));
 
         // Swords
@@ -198,7 +198,7 @@ public class AestheticWeaponTrimsWeapons {
         STEEL_1_SWORD = registerItem("steel_1_sword", () -> createWeapon(sword_attributes));
         STEEL_2_SWORD = registerItem("steel_2_sword", () -> createWeapon(sword_attributes));
         TERRA_SWORD = registerItem("terra_sword", () -> createWeapon(sword_attributes));
-        TRON_SWORD = registerItem("tron_sword", () -> createWeapon(sword_attributes));
+        NEON_SWORD = registerItem("neon_sword", () -> createWeapon(sword_attributes));
         VOID_SWORD = registerItem("void_sword", () -> createWeapon(sword_attributes));
     }
 
@@ -207,7 +207,7 @@ public class AestheticWeaponTrimsWeapons {
     }
 
     private static SwordItem createWeapon(ItemAttributeModifiers attribute_modifiers) {
-        return new SwordItem(Tiers.DIAMOND,
+        return new SwordItem(Tiers.NETHERITE,
                 new Item.Properties()
                         .arch$tab(AWT_TAB)
                         .attributes(attribute_modifiers));
