@@ -48,6 +48,7 @@ public class AestheticWeaponTrimsWeapons {
     public static RegistrySupplier<Item> REDSTONE_SOOT_GLAIVE;
     public static RegistrySupplier<Item> STEEL_GLAIVE;
     public static RegistrySupplier<Item> TERRA_GLAIVE;
+    public static RegistrySupplier<Item> TRON_GLAIVE;
     public static RegistrySupplier<Item> VOID_GLAIVE;
     public static RegistrySupplier<Item> AMETHYST_SOOT_SWORD;
     public static RegistrySupplier<Item> BLIZZARD_SWORD;
@@ -83,7 +84,7 @@ public class AestheticWeaponTrimsWeapons {
                         Attributes.ATTACK_SPEED,
                         new AttributeModifier(
                                 BASE_ATTACK_SPEED_ID,
-                                BASE_ITEM_ATTACK_SPEED+1.4F,
+                                BASE_ITEM_ATTACK_SPEED+1.2F,
                                 AttributeModifier.Operation.ADD_VALUE
                         ),
                         EquipmentSlotGroup.MAINHAND
@@ -112,7 +113,7 @@ public class AestheticWeaponTrimsWeapons {
                         Attributes.ATTACK_SPEED,
                         new AttributeModifier(
                                 BASE_ATTACK_SPEED_ID,
-                                BASE_ITEM_ATTACK_SPEED+0.2F,
+                                BASE_ITEM_ATTACK_SPEED+0.38F,
                                 AttributeModifier.Operation.ADD_VALUE
                         ),
                         EquipmentSlotGroup.MAINHAND
@@ -177,6 +178,7 @@ public class AestheticWeaponTrimsWeapons {
         REDSTONE_SOOT_GLAIVE = registerItem("redstone_soot_glaive", () -> createWeapon(glaive_attributes));
         STEEL_GLAIVE = registerItem("steel_glaive", () -> createWeapon(glaive_attributes));
         TERRA_GLAIVE = registerItem("terra_glaive", () -> createWeapon(glaive_attributes));
+        TRON_GLAIVE = registerItem("tron_glaive", () -> createWeapon(glaive_attributes));
         VOID_GLAIVE = registerItem("void_glaive", () -> createWeapon(glaive_attributes));
 
         // Swords
