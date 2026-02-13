@@ -1,18 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "nG"
+        " # ",
+        "GNn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:apple"
         },
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
         "G": {
             "item": "minecraft:glass"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
         }
     },
     "result": {

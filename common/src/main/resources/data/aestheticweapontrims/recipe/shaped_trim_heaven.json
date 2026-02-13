@@ -1,18 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "ng"
+        " # ",
+        "gNn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:glowstone_dust"
         },
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
         "g": {
             "item": "minecraft:gold_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
         }
     },
     "result": {

@@ -1,12 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "cn",
-        "nc"
+        " c ",
+        "cNn",
+        " n "
     ],
     "key": {
         "c": {
             "item": "minecraft:copper_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
         },
         "n": {
             "item": "minecraft:netherite_ingot"

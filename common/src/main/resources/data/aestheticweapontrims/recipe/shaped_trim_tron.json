@@ -1,12 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "n#"
+        " # ",
+        "GNn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:glow_ink_sac"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
         },
         "n": {
             "item": "minecraft:netherite_ingot"

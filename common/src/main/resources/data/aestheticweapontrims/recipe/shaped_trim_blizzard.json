@@ -1,12 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "n#"
+        " # ",
+        "#Nn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:snowball"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
         },
         "n": {
             "item": "minecraft:netherite_ingot"

@@ -1,18 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "nP"
+        " # ",
+        "PNn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:oxeye_daisy"
         },
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
         "P": {
             "item": "minecraft:pink_dye"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
         }
     },
     "result": {

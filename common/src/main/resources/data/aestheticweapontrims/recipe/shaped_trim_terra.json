@@ -1,18 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "nL"
+        " # ",
+        "LNn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:emerald"
         },
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
         "L": {
             "item": "minecraft:lapis_lazuli"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
         }
     },
     "result": {

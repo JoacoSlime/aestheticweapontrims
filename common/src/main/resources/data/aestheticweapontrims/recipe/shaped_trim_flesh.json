@@ -1,18 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "nB"
+        " # ",
+        "BNn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:rotten_flesh"
         },
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
         "B": {
             "item": "minecraft:bone"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
         }
     },
     "result": {

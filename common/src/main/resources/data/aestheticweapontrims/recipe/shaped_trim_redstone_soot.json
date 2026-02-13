@@ -1,18 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#n",
-        "nC"
+        " # ",
+        "CNn",
+        " n "
     ],
     "key": {
         "#": {
             "item": "minecraft:redstone"
         },
-        "n": {
-            "item": "minecraft:netherite_ingot"
-        },
         "C": {
             "item": "minecraft:coal"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
         }
     },
     "result": {

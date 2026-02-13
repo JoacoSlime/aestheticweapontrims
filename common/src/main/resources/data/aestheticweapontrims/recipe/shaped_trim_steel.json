@@ -1,12 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "in",
-        "ni"
+        " i ",
+        "iNn",
+        " n "
     ],
     "key": {
         "i": {
             "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
         },
         "n": {
             "item": "minecraft:netherite_ingot"
